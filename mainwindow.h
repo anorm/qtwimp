@@ -27,7 +27,9 @@ private slots:
     void webStatusBarMessage(const QString & text);
     void webTitleChanged(const QString & title);
     void webUrlChanged(const QUrl & url);
-
+    void actionPlayPause();
+    void actionNextTrack();
+    void actionPrevTrack();
 };
 
 #endif // MAINWINDOW_H
